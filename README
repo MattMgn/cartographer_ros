@@ -1,0 +1,11 @@
+WARNING:
+be carefull to use the right frame name with the static transforms
+
+launch the mapping process
+    roslaunch cartographer_ros demo_my_robot.launch
+
+save the map
+    rosservice call /write_state "{filename: '${HOME}/rosmap/losserand_v7_2_res0025.bag.pbstream'}"
+
+run the pure localization with
+    roslaunch cartographer_ros demo_my_robot_localization.launch
