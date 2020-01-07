@@ -48,6 +48,6 @@ TRAJECTORY_BUILDER_2D.use_imu_data = false
 TRAJECTORY_BUILDER_2D.use_online_correlative_scan_matching = true
 TRAJECTORY_BUILDER_2D.min_range = 0.2
 TRAJECTORY_BUILDER_2D.max_range = 8.0
-
+TRAJECTORY_BUILDER_2D.submaps.grid_options_2d.resolution = 0.05
 
 return options
